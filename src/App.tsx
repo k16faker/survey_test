@@ -19,7 +19,7 @@ function App() {
       </div>
       <Yesorno />
       <Whatisbest />
-      <button>나가기</button>
+      <button value={"Submit"} onClick={handleClick} className='w-[100px] bg-red-400 hover:bg-red-700 hover:scale-110 transition-all text-white rounded-3xl'>제출</button>
     </div>
   );
 }
