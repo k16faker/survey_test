@@ -12,6 +12,7 @@ const Whatisbest = () => {
   return (
     <div className="w-full mb-5">
       <p>어떤 점이 가장 만족스러우셨나요?</p>
+      <p>{bestThing}</p>
       <div className="flex py-5">
         <button
           onClick={changeBestThing}
