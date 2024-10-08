@@ -7,6 +7,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       Jua: ["Jua"],
+      Dongle: ["Dongle"],
     }
   },
   plugins: [],
